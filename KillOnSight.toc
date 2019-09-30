@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: Kill On Sight
+## Author: Fysaeri
+## Version: 0.1
+
+HitList.lua
+Interface.lua
+main.lua

@@ -1,0 +1,36 @@
+local _, namespace = ...
+
+local HitList = {
+	Crapsack = 1,
+	Phobic = 1,
+	Swive = 1,
+	Unstable = 2,
+	Jimhokey = 2,
+	Cabezon = 2,
+	Vynstormaor = 2,
+	Dorner = 1,
+	Drumpf = 1,
+	Daeren = 1,
+	Medieval = 1,
+	pyra = 1,
+	Phlop = 5,
+	Illithid = 3,
+	Gothic = 1,
+	Gankster = 2,
+	Sterile = 3,
+	Orcnbeans = 3,
+	Khaim = 3,
+	Darkside = 3,
+	Beantown = 2,
+	Lbk = 2,
+	Rotgash = 2,
+	Cuatro = 2,
+	Ghulgamak = 3,
+	Pherolex = 2,
+	ClapTV = 4,
+	Frozt = 4,
+	Zombies = 4,
+	Campsalot = 4,
+}
+
+namespace.HitList = HitList

@@ -2,6 +2,7 @@
 ## Title: Kill On Sight
 ## Author: Fysaeri
 ## Version: 0.1
+## SavedVariables: HitListData
 
 HitList.lua
 Interface.lua

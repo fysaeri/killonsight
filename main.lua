@@ -27,6 +27,16 @@ function SlashCmdList.KOS(msg, editbox)
 			name = i;
 		end
 	end
+	
+	-- If the name already exists then we need to reload the UI
+	-- there isn't a way to remove UI elements dynamically so a force refresh is needed
+	if(HitListData[name]) then
+		HitListData[name] = rating
+		
+		C_UI.Reload()
+		
+		return
+	end
 
 	print("Added", name, "to the hit list with rating", rating)
 	HitListData[name] = rating
